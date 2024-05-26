@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Pedigree - Adulto",
+      "precio": "100.00",
+      "imagen": "https://raw.githubusercontent.com/MayrenS95/Imagenes_Proyecto_Alura/main/imagen/Producto/producto2.avif"
+    },
+    {
+      "id": "2",
+      "nombre": "Pedigree - Adulto",
+      "precio": "100.00",
+      "imagen": "https://raw.githubusercontent.com/MayrenS95/Imagenes_Proyecto_Alura/main/imagen/Producto/producto2.avif"
+    },
+    {
+      "id": "3",
+      "nombre": "Wishcats",
+      "precio": "76.9",
+      "imagen": "https://raw.githubusercontent.com/MayrenS95/Imagenes_Proyecto_Alura/main/imagen/Producto/producto2.avif"
+    },
+    {
+      "id": "4",
+      "nombre": "Wishcats",
+      "precio": "76.9",
+      "imagen": "https://raw.githubusercontent.com/MayrenS95/Imagenes_Proyecto_Alura/main/imagen/Producto/producto2.avif"
+    },
+    {
+      "id": "5",
+      "nombre": "Wishcats",
+      "precio": "76.9",
+      "imagen": "https://raw.githubusercontent.com/MayrenS95/Imagenes_Proyecto_Alura/main/imagen/Producto/producto2.avif"
+    },
+    {
+      "id": "6",
+      "nombre": "Wishcats",
+      "precio": "76.9",
+      "imagen": "https://raw.githubusercontent.com/MayrenS95/Imagenes_Proyecto_Alura/main/imagen/Producto/producto2.avif"
+    },
+    {
+      "id": "7",
+      "nombre": "Wishcats",
+      "precio": "76.9",
+      "imagen": "https://raw.githubusercontent.com/MayrenS95/Imagenes_Proyecto_Alura/main/imagen/Producto/producto2.avif"
+    }
+  ]
+}

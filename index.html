@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>ALURA GEEK</title>
+</head>
+
+<html>
+    <body>
+        <header class="encabezado">
+            <img src="imagen\favicon.ico" alt="Logo Alura">
+            <h1>Alura Geek</h1>
+        </header>
+
+        <main>
+            <section class="contenedor-producto" >
+                <h2>Mis Productos</h2>
+                <div class="contenedor-detalle-producto" data-lista >
+                </div>
+            </section>
+
+            <section class="contenedor-formulario">
+                <h2>Agregar Producto</h2>
+                <form data-formulario>
+                    <input data-nombre required type="text" placeholder="nombre..."></input>
+                    <input data-precio required type="text" placeholder="precio..."></input>
+                    <input data-imagen required type="text" placeholder="imagen..."></input>
+                
+                    <div class="botones">
+                        <button class="enviar" type="submit">Cargar</button>
+                        <button class="limpiar">Limpiar</button>
+                    </div>
+                </form>
+
+                <img class="imagen-extra" src="..\imagen\Producto\Fondo.jpg" alt="imagen perrito">
+            </section>
+
+        </main>
+
+        <footer>
+            <h3>Desarrollado por:</h3>
+            <p>Mayren Silva</p>
+            <p>Alura Latam - 2024</p>
+        </footer>
+        <script src="./JS/conectApi.js" type="module"></script>
+        <script src="./JS/crearProducto.js" type="module"></script>
+        <script src="./JS/mostrarProducto.js" type="module"></script>
+        <script src="./JS/eliminarProducto.js" type="module"></script>
+        
+
+    </body>
+</html>

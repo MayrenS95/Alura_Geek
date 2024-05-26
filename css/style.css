@@ -1,0 +1,206 @@
+/*Encabezado*/
+body{
+    background-color: rgb(211, 169, 219);
+
+}
+
+.encabezado{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(224, 216, 216);
+}
+
+.encabezado h1{
+    color:#9303A6;
+    font-size: 40px
+}
+
+.encabezado img{
+    width: 30px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+/*main*/
+main{
+    margin-top: 15px;
+    display: flex;
+}
+
+/*productos*/
+.contenedor-producto{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+
+.contenedor-detalle-producto{
+    display: flex;
+    height: 80%;
+    overflow-y: auto;
+    flex-wrap: wrap;
+}
+
+h2{
+    font-size: 30px;
+    align-self: center;
+    font-weight: bold;
+    color: aliceblue;
+    margin-bottom: 40px;
+}
+
+.producto{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    height: 50%;
+    background-color: #5D04D9;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    
+}
+
+.producto img {
+    align-self: center;
+    width: 70%;
+    height: 70%;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.producto span{
+    margin-left: 10px;
+    color:aliceblue;
+    font-size: 25px;
+}
+
+.precio-papelera{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.papelera{
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+}
+
+/*Agregar productos*/
+.contenedor-formulario{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-style: ridge;
+    border-color: #9303A6;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    align-self: center;
+    width: 70%;
+    height: 50px;
+    color:#8C0375
+}
+
+
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 15px;
+}
+
+.enviar{
+    font-size: 15px;
+    background-color: #5D04D9;
+    color:aliceblue;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.limpiar{
+    font-size: 15px;
+    background-color: #8C0375;
+    color:aliceblue;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.imagen-extra{
+    margin-top: 70px;
+    align-self: center;
+    border-radius: 50px;
+}
+/*footer*/
+
+footer{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(224, 216, 216);
+    margin-top: 15px;
+}
+
+footer h3{
+    color:#9303A6;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer p{
+    margin-bottom: 5px ;
+}
+
+/*efectos adicionales*/
+
+.imagen-extra:hover{
+    height: 25%;
+    width: 50%;
+    transition: 0.5s;
+    transform: rotate(45deg);
+}
+
+.enviar:hover{
+    background-color: #03318c;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.limpiar:hover{
+    background-color: #03318c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.papelera:hover{
+    transition: 0.5s;
+    transform: rotate(45deg);
+}
+
+.producto img:hover{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
